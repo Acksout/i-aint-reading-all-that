@@ -1,10 +1,32 @@
 {
   "manifest_version": 3,
-  "name": "React Extension",
+  "name": "Your Extension Name",
   "version": "1.0",
-  "description": "A Chrome extension built with React",
+  "description": "Your extension description",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://*/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
   "action": {
-    "default_popup": "index.html",
-    "default_icon": "icon.png"
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "128": "icon.png"
   }
 }
