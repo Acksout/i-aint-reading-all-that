@@ -10,12 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@google/generative-ai": "^0.17.0",
-    "axios": "^1.7.4",
-    "html-to-text": "^9.0.5",
-    "openai": "^4.56.0",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "vite-plugin-static-copy": "^1.0.6"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",

@@ -1,32 +1,10 @@
 {
   "manifest_version": 3,
-  "name": "Your Extension Name",
-  "version": "1.0",
-  "description": "Your extension description",
-  "permissions": [
-    "activeTab",
-    "storage"
-  ],
-  "host_permissions": [
-    "https://*/*"
-  ],
-  "background": {
-    "service_worker": "background.js"
-  },
-  "content_scripts": [
-    {
-      "matches": [
-        "<all_urls>"
-      ],
-      "js": [
-        "content.js"
-      ]
-    }
-  ],
+  "name": "Aint Reading All That",
+  "version": "1.0.0",
+  "description": "Blah Blah Blah",
   "action": {
-    "default_popup": "popup.html"
+    "default_popup": "index.html"
   },
-  "icons": {
-    "128": "icon.png"
-  }
+  "permissions": []
 }
