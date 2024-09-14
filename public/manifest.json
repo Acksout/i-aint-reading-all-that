@@ -6,5 +6,10 @@
   "action": {
     "default_popup": "index.html"
   },
-  "permissions": []
+  "permissions": ["activeTab", "scripting"],
+  "icons": {
+    "16": "crown.png",
+    "48": "crown.png",
+    "128": "crown.png"
+  }
 }
