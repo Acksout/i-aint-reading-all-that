@@ -1,5 +1,8 @@
 # 📚 I Ain't Reading All That 🚀
 
+# 🎥 Video
+[![Watch the video](https://i.imgur.com/ILRo9ZX.png)](https://youtu.be/PqHgG8bKagE)
+
 A Chrome extension that summarizes web pages using Google's Generative AI.
 
 ## 🌟 Features
